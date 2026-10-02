@@ -2,7 +2,7 @@
 <html lang="pt-BR">
     
     <head>
-        <title>Casa Reina</title>
+       <title>CASA REINA — <?php echo isset($titulo_pagina) ? $titulo_pagina : "Plataforma Curatorial"; ?></title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -28,36 +28,44 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       
-      <!-- Links de Navegação (Agrupados corretamente dentro do colapso) -->
+      <!-- Links de Navegação -->
       <div class="collapse navbar-collapse" id="navbarCasaReina">
-        <!-- ms-auto empurra os links para o lado direito da tela -->
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase tracking-wider font-sans fw-bold">
+          
           <li class="nav-item">
-            <a class="nav-link nav-link-autumn px-3" href="index.php">Home</a>
+            <a class="nav-link nav-link-autumn px-3 <?php echo ($pagina_atual == 'index') ? 'active' : ''; ?>" href="index.php">Home</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link nav-link-autumn px-3" href="historia.php">Trajetória</a>
+            <a class="nav-link nav-link-autumn px-3 <?php echo ($pagina_atual == 'historia') ? 'active' : ''; ?>" href="historia.php">Trajetória</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link nav-link-autumn px-3" href="loja.php">Loja</a>
+            <a class="nav-link nav-link-autumn px-3 <?php echo ($pagina_atual == 'loja') ? 'active' : ''; ?>" href="loja.php">Loja</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link nav-link-autumn px-3" href="projetos.php">Projetos</a>
+            <a class="nav-link nav-link-autumn px-3 <?php echo ($pagina_atual == 'projetos') ? 'active' : ''; ?>" href="projetos.php">Projetos</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link nav-link-autumn px-3" href="artistas.php">Artistas</a>
+            <a class="nav-link nav-link-autumn px-3 <?php echo ($pagina_atual == 'artistas') ? 'active' : ''; ?>" href="artistas.php">Artistas</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link nav-link-autumn px-3" href="eventos.php">Eventos</a>
+            <a class="nav-link nav-link-autumn px-3 <?php echo ($pagina_atual == 'eventos') ? 'active' : ''; ?>" href="eventos.php">Eventos</a>
           </li> 
+          
           <li class="nav-item">
-            <a class="nav-link nav-link-autumn px-3 pe-lg-0" href="contato.php">Contato</a>
+            <a class="nav-link nav-link-autumn px-3 pe-lg-0 <?php echo ($pagina_atual == 'contato') ? 'active' : ''; ?>" href="contato.php">Contato</a>
           </li>
+          
         </ul>
       </div>
 
     </div>
   </nav>
 </header>
+
 
 

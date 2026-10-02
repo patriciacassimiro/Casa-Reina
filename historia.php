@@ -1,4 +1,8 @@
-<?php include ('includes/head.php') ?>
+<?php 
+ $titulo_pagina = "História | CASA REINA";
+  $pagina_atual = "historia"; // Identificador para o menu
+  include ('includes/head.php') ?>
+  
 <main class="container-fluid px-4 px-lg-5">
   <!-- 1. INTRODUÇÃO (A Essência e Identidade) -->
   <section class="bio-hero py-5 mt-5">

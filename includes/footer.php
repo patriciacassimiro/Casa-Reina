@@ -2,19 +2,19 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 <!-- Rodapé da Plataforma -->
-<footer class="site-footer fw-bold">
+<footer class="site-footer fw-bold>
   <div class="py-4">
-    <!-- row com gy-4 e gy-md-5 garante o espaçamento vertical perfeito quando as colunas se empilharem no celular -->
+   
     <div class="row gy-4 gy-md-5 text-md">
 
       <!-- COLUNA 0: Logotipo (Centralizado no mobile, alinhado à esquerda no desktop) -->
-      <div class="col-12 col-md-4 col-lg-2 text-center">
+      <div class="col-12 col-md-4 col-lg-2">
         <img src="img/logo-branco.png" alt="Logo da Plataforma Curatorial" class="img-fluid mb-2" style="max-width: 250px;">
       </div>
       
       <!-- COLUNA 1: Manifesto / Identidade (Largura controlada para não ficar gigante) -->
-      <div class="col-12 col-md-8 col-lg-3 mb-3 mb-md-0">
-        <h3 class="footer-heading fw-bold text-uppercase tracking-wider mb-3 mb-md-4">Michele Wharton</h3>
+      <div class="col-12 col-md-8 col-lg-3">
+        <h3 class="footer-heading fw-bold text-uppercase tracking-wider  r">Michele Wharton</h3>
         <p class="footer-manifesto font-sans mb-4 mx-auto mx-md-0" style="max-width: 300px;">
           Uma investigação sensível sobre o espaço, a forma e a expressão nas intersecções da arte, design, moda e arquitetura.
         </p>
@@ -22,7 +22,7 @@
 
       <!-- COLUNA 2: Navegação / Editorias -->
       <div class="col-6 col-md-4 col-lg-2">
-        <h4 class="footer-heading fw-bold text-uppercase tracking-wider mb-3 mb-md-4">Editorias</h4>
+        <h4 class="footer-heading fw-bold text-uppercase tracking-wider">Editorias</h4>
         <ul class="list-unstyled footer-links font-sans fw-bold">
           <li><a href="#arte">Arte Contemporânea</a></li>
           <li><a href="#design">Design Autoral</a></li>
@@ -33,7 +33,7 @@
         
       <!-- COLUNA 3: Plataforma / Institucional -->
       <div class="col-6 col-md-4 col-lg-2">
-        <h4 class="footer-heading fw-bold text-uppercase tracking-wider mb-3 mb-md-4">Explorar</h4>
+        <h4 class="footer-heading fw-bold text-uppercase tracking-wider ">Explorar</h4>
         <ul class="list-unstyled footer-links font-sans fw-bold">
           <li><a href="#acervo">O Acervo</a></li>
           <li><a href="#sobre">Sobre a Curadora</a></li>
@@ -44,7 +44,7 @@
 
       <!-- COLUNA 4: Redes Sociais e Contato -->
       <div class="col-12 col-md-4 col-lg-3">
-        <h4 class="footer-heading fw-bold text-uppercase tracking-wider mb-3 mb-md-4">Contato</h4>
+        <h4 class="footer-heading fw-bold text-uppercase tracking-wider ">Contato</h4>
         
         <ul class="list-unstyled footer-contact-info font-sans fw-bold mb-4">
           <li class="mb-2">
@@ -80,7 +80,7 @@
     </div>
     </div>
        <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.2);">
-       <p class="font-sans fw-bold small text-center" style="color: var(--castanho-medio);">
+       <p class="font-sans fw-bold small" style="color: var(--castanho-medio);">
         &copy; <?php echo date("Y"); ?> Michele Wharton. Todos os direitos reservados.
       </p>
 

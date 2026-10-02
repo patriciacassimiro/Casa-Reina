@@ -1,4 +1,7 @@
-<?php include ('includes/head.php') ?>
+<?php
+ $titulo_pagina = "Contato | CASA REINA";
+  $pagina_atual = "contato"; // Identificador para o menu
+ include ('includes/head.php') ?>
 <main> 
   
 

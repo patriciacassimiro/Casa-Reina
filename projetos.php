@@ -1,4 +1,7 @@
-<?php include ('includes/head.php') ?>
+<?php 
+ $titulo_pagina = "Projetos | CASA REINA";
+  $pagina_atual = "projetos"; // Identificador para o menu
+include ('includes/head.php') ?>
     <main class="container-fluid px-4 px-lg-5 bg-1">
         <section class="projects py-5 mt-5">
             <div class="container-fluid px-4 px-lg-5">

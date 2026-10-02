@@ -1,4 +1,7 @@
-<?php include ('includes/head.php') ?>
+<?php 
+ $titulo_pagina = "Loja | CASA REINA";
+  $pagina_atual = "loja"; // Identificador para o menu
+include ('includes/head.php') ?>
 <main>
     <!-- 1. TOPO DA LOJA -->
   <section class="py-5 bg-5 mb-0">

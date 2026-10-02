@@ -1,4 +1,7 @@
-<?php include ('includes/head.php') ?>
+<?php 
+ $titulo_pagina = "Home — Arte, Design, Moda e Arquitetura";
+  $pagina_atual = "index"; // Identificador para o menu
+include ('includes/head.php') ?>
 
 <main>
 <!-- Seção Hero Assimétrica -->

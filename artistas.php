@@ -1,6 +1,9 @@
 
 
- <?php include ('includes/head.php') ?>
+ <?php 
+  $titulo_pagina = "Artistas & Criadores | CASA REINA";
+  $pagina_atual = "artistas";
+  include ('includes/head.php') ?>
 
  <main class="container-fluid px-4 px-lg-5 bg-4">
   <!-- 1. TOPO DA PÁGINA (Reaproveitando classes do Hero) -->
