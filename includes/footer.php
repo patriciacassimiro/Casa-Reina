@@ -2,7 +2,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 <!-- Rodapé da Plataforma -->
-<footer class="site-footer py-5 my-0 fw-bold">
+<footer class="site-footer fw-bold">
   <div class="py-4">
     <!-- row com gy-4 e gy-md-5 garante o espaçamento vertical perfeito quando as colunas se empilharem no celular -->
     <div class="row gy-4 gy-md-5 text-md">
@@ -14,7 +14,7 @@
       
       <!-- COLUNA 1: Manifesto / Identidade (Largura controlada para não ficar gigante) -->
       <div class="col-12 col-md-8 col-lg-3 mb-3 mb-md-0">
-        <h3 class="footer-logo font-serif mb-3">Michele Wharton</h3>
+        <h3 class="footer-heading fw-bold text-uppercase tracking-wider mb-3 mb-md-4">Michele Wharton</h3>
         <p class="footer-manifesto font-sans mb-4 mx-auto mx-md-0" style="max-width: 300px;">
           Uma investigação sensível sobre o espaço, a forma e a expressão nas intersecções da arte, design, moda e arquitetura.
         </p>
@@ -57,13 +57,10 @@
               <i class="bi bi-whatsapp me-2"></i> +55 11 99999-9999
             </a>
           </li>
-          <li class="text-white opacity-75">
+          <li class="text-white">
             <i class="bi bi-geo-alt me-2"></i> São Paulo — Brasil
           </li>
         </ul>
-
-        <h4 class="footer-heading fw-bold text-uppercase tracking-wider mb-3">Redes Sociais</h4>
-        
         <!-- justify-content-center alinha no meio no celular, justify-content-md-start joga para a esquerda no PC -->
         <div class="footer-links d-flex justify-content-center justify-content-md-start gap-4 fs-4">
           <a href="https://instagram.com" target="_blank" title="Instagram">
@@ -76,14 +73,15 @@
             <i class="bi bi-youtube"></i>
           </a>
         </div>
+         
+          
       </div>
 
     </div>
-    <!-- Linha de copyright -->
-     <div class="text-center mt-3 pt-2 pb-1" style="border-top: 1px solid rgba(255, 255, 255, 0.1); color: #ffffff; opacity: 0.4;">
-    <p class="font-sans fw-bold small mb-0">
-      &copy; <?php echo date("Y"); ?> Michele Wharton. Todos os direitos reservados.
-    </p>
-  </div>
+    </div>
+       <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.2);">
+       <p class="font-sans fw-bold small text-center" style="color: var(--castanho-medio);">
+        &copy; <?php echo date("Y"); ?> Michele Wharton. Todos os direitos reservados.
+      </p>
 
 </footer>

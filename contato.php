@@ -3,7 +3,7 @@
   
 
   <!-- CONEXÃO E CANAIS DE CONTATO -->
-  <section class="py-5 mt-5 mb-5 bg-4">
+  <section class="py-5 bg-4">
     <div class="container-fluid px-4 px-lg-5 my-4 ">
       <div class="row g-5 align-items-start">
         

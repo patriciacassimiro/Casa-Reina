@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --verde-militar: #363b17;
-  --amarelo-mostarda: #E1AD01;
+  --verde-militar: #484e1f;
+  --amarelo-mostarda: #e4a700;
   --laranja-abobora: #b95110;
-  --marrom-chocolate: #1f1106;
+  --marrom-chocolate: #503319;
   --castanho-medio: #a79587;
-  --bordo: rgb(68, 1, 1);
+  --bordo: rgb(104, 17, 17);
 }
 
 /* Força o navegador a cortar qualquer vazamento lateral invisível */
@@ -17,6 +17,7 @@ html, body {
   overflow-x: hidden; /* A mágica está aqui: elimina qualquer barra ou margem branca na lateral */
   color: var(--marrom-chocolate) !important; /* Garante que o texto principal use a cor Castanho Médio da paleta */
 }
+
 
 /* Sua regra do body atualizada e protegida contra vazamentos */
 body {
@@ -112,7 +113,7 @@ footer.site-footer {
   background-color: var(--marrom-chocolate);
   color: #ffffff;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   margin-top: auto !important;
   border-top: 1px solid rgba(97, 0, 0, 0.2);
 }
@@ -198,7 +199,7 @@ footer.site-footer {
 }
 
 
-/* --- CARDS CIRCULARES COM INTERAÇÃO FORTE --- */
+
 
 /* --- CARDS CIRCULARES DE ARTISTAS (DESKTOP) --- */
 
@@ -301,64 +302,37 @@ footer.site-footer {
 .text-muted-autumn:hover {
   color: var(--verde-militar);
 }
-.bg-1,
-.bg-2,
-.bg-3,
-.bg-4,
-.bg-5,
-.bg-6 {
-  background: transparent;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
+.
+
+/* --- COMPORTAMENTO UNIFICADO: HOVER + FOCUS --- */
+
+/* 1. Estado Padrão (Inspirado em Argila Clara) */
+.custom-input,
+.footer-input,
+input[type="search"].custom-input {
+  background-color: #F5EFEB !important; 
+  border: 1px solid rgba(170, 78, 7, 0.966) !important; 
+  color: var(--marrom-chocolate) !important;
+  border-radius: 0 !important; 
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  padding: 14px 20px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.bg-1::before,
-.bg-2::before,
-.bg-3::before,
-.bg-4::before,
-.bg-5::before,
-.bg-6::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+/* 2. A CORREÇÃO: Aplicamos o efeito TANTO no :hover quanto no :focus */
+.custom-input:hover,
+.custom-input:focus,
+.footer-input:hover,
+.footer-input:focus,
+input[type="search"].custom-input:hover,
+input[type="search"].custom-input:focus {
+  /* Quando passa o mouse ou clica, o fundo clareia e a linha assume o Verde Militar */
+  background-color: #ffffff !important;
+  border-color: var(--bordo) !important;
+  color: var(--marrom-chocolate) !important;
   
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -1;
-  pointer-events: none;
-}
-
-.bg-1::before {
-  background-image: url('../img/michele2.jpg');
-  opacity: 0.6;
-}
-
-.bg-2::before {
-  background-image: url('../img/michele3.jpg');
-  opacity: 0.6;
-}
-
-.bg-3::before {
-  background-image: url('../img/fundo1.jpg');
-  opacity: 0.7;
-}
-
-.bg-4::before {
-  background-image: url('../img/fundo3.jpg');
-  opacity: 0.6;
-}
-
-.bg-5::before {
-  background-image: url('../img/fundo2.jpg');
-  opacity: 0.6;
-}
-
-.bg-6::before {
-  background-image: url('../img/textura.jpg');
-  opacity: 0.2;
+  /* Sombra orgânica suave que empurra o campo para a frente */
+  box-shadow: 0 4px 12px rgba(75, 83, 32, 0.541) !important; 
+  outline: none !important; /* Destrói de vez a linha azul padrão do Bootstrap */
 }

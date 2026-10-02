@@ -1,7 +1,7 @@
 <?php include ('includes/head.php') ?>
 <main>
     <!-- 1. TOPO DA LOJA -->
-  <section class="py-5 mt-5 bg-5 mb-0">
+  <section class="py-5 bg-5 mb-0">
     <div class="container-fluid px-4 px-lg-5">
       <div class="row align-items-end gy-4">
         <!-- Título -->
@@ -17,9 +17,9 @@
         <div class="col-12 col-lg-4 ms-auto font-sans">
           <form class="d-flex position-relative">
             <!-- Reaproveitando a classe .custom-input do formulário de inscrição -->
-            <input type="search" class="form-control fw-bold rounded-0 custom-input py-3 pe-5" placeholder="Buscar no acervo..." aria-label="Buscar">
-            <button type="submit" class="btn position-absolute end-0 top-50 translate-middle-y border-0 pe-4" style="color: var(--marrom-chocolate);">
-              <i class="bi bi-search"></i>
+            <input type="search" class="form-control custom-input py-3 pe-5" placeholder="Buscar no acervo..." aria-label="Buscar">
+            <button type="submit" class="btn position-absolute end-0 top-50 translate-middle-y border-0 pe-4 search-btn-inside" style="color: var(--marrom-chocolate);">
+              <i class="bi bi-search fs-8"></i>
             </button>
           </form>
         </div>

@@ -2,9 +2,9 @@
 
 <main>
 <!-- Seção Hero Assimétrica -->
-<section class="hero-asymmetric d-flex align-items-center overflow-hidden my-2 bg-5">
+<section class="hero-asymmetric d-flex align-items-center overflow-hidden bg-5">
   <div class="container-fluid px-4 px-lg-5">
-    <div class="row align-items-center gy-5">
+    <div class="row align-items-center gy-5 mt-5 mb-5">
       
       <!-- LADO ESQUERDO: Manifesto e Conceito -->
       <div class="col-12 col-lg-5 col-xl-4 offset-xl-1 text-container pe-lg-5">

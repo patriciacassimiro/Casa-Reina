@@ -2,7 +2,7 @@
 
  <?php include ('includes/head.php') ?>
 
- <main class="container-fluid px-4 px-lg-5 bg-bordo-opaco bg-4">
+ <main class="container-fluid px-4 px-lg-5 bg-4">
   <!-- 1. TOPO DA PÁGINA (Reaproveitando classes do Hero) -->
   <section class="py-5 mt-5 ">
     <div class="container-fluid px-4 px-lg-5 text-center text-lg-start">
@@ -41,10 +41,10 @@
             <span class="about-tag text-uppercase tracking-wider small d-block mb-1">Moda, Têxtil & Arquitetura</span>
             <h3 class="font-serif fw-bold h2 mb-2 artist-title-glow">Michele Wharton</h3>
             <p class="font-sans fw-bold small mb-3">Brasil / São Paulo</p>
-            <p class="font-sans fw-bold lh-base text-muted small mb-4" style="; max-width: 340px; margin: 0 auto;">
+            <p class="font-sans fw-bold small mb-4" style=" max-width: 340px; margin: 0 auto;">
               Pesquisa autoral fundamentada na cosmovisão das molas panamenhas e xilogravuras, traduzindo ancestralidade em linguagem contemporânea.
             </p>
-            <a href="hstoria.php" class="font-sans text-uppercase tracking-wider small fw-bold text-decoration-none artist-link-strong">
+            <a href="hstoria.php" class="btn btn-lg fw-bold font-sans px-4 py-3 rounded-0 text-uppercase tracking-wider btn-hero-autumn">
               Conhecer Trajetória <span class="ms-1 arrow-trigger">➔</span>
             </a>
           </div>
@@ -61,10 +61,10 @@
             <span class="about-tag text-uppercase tracking-wider small d-block mb-1">Arte Contemporânea & Pintura</span>
             <h3 class="font-serif fw-bold h2 mb-2 artist-title-glow">Nome do Artista 2</h3>
             <p class="font-sans fw-bold small mb-3">Bahia / Salvador</p>
-            <p class="font-sans fw-bold lh-base text-muted small mb-4" style="; max-width: 340px; margin: 0 auto;">
+            <p class="font-sans fw-bold small mb-4" style="max-width: 340px; margin: 0 auto;">
               Investigação visual focada em narrativas afro-brasileiras, utilizando pigmentos naturais e texturas que resgatam memórias afetivas.
             </p>
-            <a href="#link-artista" class="font-sans text-uppercase tracking-wider small fw-bold text-decoration-none artist-link-strong">
+            <a href="#link-artista" class="btn btn-lg fw-bold font-sans px-4 py-3 rounded-0 text-uppercase tracking-wider btn-hero-autumn">
               Conhecer Trajetória <span class="ms-1 arrow-trigger">➔</span>
             </a>
           </div>
@@ -81,10 +81,10 @@
             <span class="about-tag text-uppercase tracking-wider small d-block mb-1">Design Autoral & Mobiliário</span>
             <h3 class="font-serif fw-bold h2 mb-2 artist-title-glow">Nome do Artista 3</h3>
             <p class="font-sans fw-bold small mb-3">América Latina / Panamá</p>
-            <p class="font-sans fw-bold lh-base text-muted small mb-4" style="; max-width: 340px; margin: 0 auto;">
+            <p class="font-sans fw-bold small mb-4" style="max-width: 340px; margin: 0 auto;">
               Criação de peças de mobiliário escultórico fundindo marcenaria fina tradicional e técnicas herdadas de comunidades indígenas.
             </p>
-            <a href="#link-artista" class="font-sans text-uppercase tracking-wider small fw-bold text-decoration-none artist-link-strong">
+            <a href="#link-artista" class="btn btn-lg fw-bold font-sans px-4 py-3 rounded-0 text-uppercase tracking-wider btn-hero-autumn">
               Conhecer Trajetória <span class="ms-1 arrow-trigger">➔</span>
             </a>
           </div>
@@ -95,9 +95,9 @@
 </section>
 
   <!-- Seção de Convocatória para Novos Artistas (Open Call) -->
-<section>
+<section class="py-5 mt-5">
   
-  <div class="container-fluid px-4 px-lg-5 my-4 mt-5">
+  <div class="container-fluid px-4 px-lg-5 mb-5 mt-5 bg-white">
     <div class="row g-5 align-items-center">
       
       <!-- LADO ESQUERDO: O Manifesto/Convite -->
@@ -110,7 +110,7 @@
       </div>
 
       <!-- LADO DIREITO: Formulário Editorial Minimalista -->
-      <div class="col-12 col-lg-5 ms-auto">
+      <div class="col-12 col-lg-5 ms-auto mb-4 ">
         <form action="enviar-inscricao.php" method="POST" enctype="multipart/form-data" class="font-sans">
           
           <div class="mb-3">

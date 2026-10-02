@@ -1,9 +1,9 @@
 <?php include ('includes/head.php') ?>
-<main class="container-fluid px-4 px-lg-5 bg-2">
+<main class="container-fluid px-4 px-lg-5">
   <!-- 1. INTRODUÇÃO (A Essência e Identidade) -->
   <section class="bio-hero py-5 mt-5">
     <div class="container-fluid px-4 px-lg-5">
-      <div class="row align-items-center gy-5">
+      <div class="row align-items-right gy-5">
         <div class="col-12 col-lg-5 offset-lg-1">
           <span class="about-tag text-uppercase tracking-wider small d-block mb-3 fw-bold">A Trajetória</span>
           <h1 class="hero-title font-serif fw-bold mb-4">
@@ -15,8 +15,7 @@
         </div>
         <div class="col-12 col-lg-6 text-center">
           <div class="image-wrapper shadow-sm">
-            <!-- Sugestão: Uma foto marcante e expressiva da Michele -->
-            <img src="img/michele2.png" alt="Michele Wharton" class="img-fluid w-100 object-fit-cover" style="height: 55vh; min-height: 400px;">
+           <img src="img/michele3.jpg" alt="Michele Wharton" class="img-fluid w-100 object-fit-cover" style="height: 55vh; min-height: 280px;">
           </div>
         </div>
       </div>
@@ -106,7 +105,7 @@
           <img src="img/louge1.jpg" alt="Lounge Mi Corazón - CASACOR" class="img-fluid w-100 object-fit-cover" style="height: 380px;">
         </div>
         <!-- mt-auto ancora a legenda na base limite da linha horizontal -->
-        <span class="font-sans text-uppercase tracking-wider d-block mt-auto pt-1 opacity-75" style="font-size: 0.90rem; color: var(--marrom-chocolate);">
+        <span class="font-sans text-uppercase tracking-wider d-block mt-auto pt-1 " style="font-size: 0.90rem; color: var(--marrom-chocolate);">
           Lounge Mi Corazón
         </span>
       </div>
@@ -116,7 +115,7 @@
         <div class="image-wrapper shadow-sm mb-2">
           <img src="img/louge2.jpeg" alt="Lounge Entre Camadas - CASACOR" class="img-fluid w-100 object-fit-cover" style="height: 380px; filter: saturate(0.8);">
         </div>
-        <span class="font-sans text-uppercase tracking-wider d-block mt-auto pt-1 opacity-75" style="font-size: 0.90rem; color: var(--marrom-chocolate);">
+        <span class="font-sans text-uppercase tracking-wider d-block mt-auto pt-1 " style="font-size: 0.90rem; color: var(--marrom-chocolate);">
           Lounge Entre Camadas
         </span>
       </div>
@@ -126,7 +125,7 @@
         <div class="image-wrapper shadow-sm mb-2">
           <img src="img/louge3.jpg" alt="Exposição Espelho dos Orixás" class="img-fluid w-100 object-fit-cover" style="height: 380px;">
         </div>
-        <span class="font-sans text-uppercase tracking-wider d-block mt-auto pt-1 opacity-75" style="font-size: 0.90rem; color: var(--marrom-chocolate);">
+        <span class="font-sans text-uppercase tracking-wider d-block mt-auto pt-1" style="font-size: 0.90rem; color: var(--marrom-chocolate);">
           Exposição Espelho dos Orixás
         </span>
       </div>
