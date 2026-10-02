@@ -309,7 +309,7 @@ footer.site-footer {
 /* 1. Estado Padrão (Inspirado em Argila Clara) */
 .custom-input,
 .footer-input,
-input[type="search"].custom-input {
+input[type="search"].custom-input{
   background-color: #F5EFEB !important; 
   border: 1px solid rgba(170, 78, 7, 0.966) !important; 
   color: var(--marrom-chocolate) !important;
